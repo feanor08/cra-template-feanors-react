@@ -9,7 +9,7 @@
         "lint": "eslint --debug src/",
         "lint:write": "eslint --debug src/ --fix"
     },
-    "dependencies": {
+    "devDependencies": {
         "babel-eslint": "^10.0.3",
         "eslint": "^6.8.0",
         "eslint-config-airbnb": "^18.1.0",

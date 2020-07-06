@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": false,
+    "eslint.autoFixOnSave": true,
+    "cSpell.words": [
+      "Jetbrains",
+      "browserslist",
+      "swipeable"
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  }

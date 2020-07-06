@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "A React app with Eslint and Prettier and correct folder structure",
   "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feanor08/cra-template-feanors-react"
+  },
+  
   "author": "feanor08",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feanor08/cra-template-feanors-react"
+  },
+  "homepage": "https://github.com/feanor08/cra-template-feanors-react#readme",
   "private": false
 }

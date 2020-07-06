@@ -1,6 +1,6 @@
 {
   "name": "cra-template-feanors-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React app with Eslint and Prettier and correct folder structure",
   "main": "template.json",
   "repository": {

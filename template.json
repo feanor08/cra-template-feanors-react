@@ -1,4 +1,5 @@
 {
+  "package":{
     "scripts": {
         "start": "PORT=2408 react-scripts start",
         "build": "react-scripts build",
@@ -27,26 +28,27 @@
         "hooks": {
           "pre-commit": "lint-staged"
         }
-      },
-      "lint-staged": {
-        "*.(js|jsx)": [
-          "yarn run lint:write",
-          "git add"
-        ]
-      },
-      "eslintConfig": {
-        "extends": "react-app"
-      },
-      "browserslist": {
-        "production": [
-          ">0.2%",
-          "not dead",
-          "not op_mini all"
-        ],
-        "development": [
-          "last 1 chrome version",
-          "last 1 firefox version",
-          "last 1 safari version"
-        ]
-      }
+    },
+    "lint-staged": {
+      "*.(js|jsx)": [
+        "yarn run lint:write",
+        "git add"
+      ]
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
 }
